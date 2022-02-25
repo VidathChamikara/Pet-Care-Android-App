@@ -1,0 +1,2 @@
+rootProject.name = "MAD project Delta"
+include ':app'

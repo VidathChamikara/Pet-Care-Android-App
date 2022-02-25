@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madprojectdelta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MADProjectDelta">
+        <activity android:name=".shop_view_cart" />
+        <activity android:name=".admin_orders" />
+        <activity android:name=".admin_account" />
+        <activity android:name=".admin_addItem" />
+        <activity android:name=".admin_menu" />
+        <activity android:name=".admin_org_addDetails" />
+        <activity android:name=".admin_org_details" />
+        <activity android:name=".admin_org_update" />
+        <activity android:name=".admin_organization_view" />
+        <activity android:name=".admin_selectedProductView" />
+        <activity android:name=".admin_viewProduct" />
+        <activity android:name=".care_clinc_details" />
+        <activity android:name=".care_show_clinics" />
+        <activity android:name=".corner_add_post" />
+        <activity android:name=".corner_edit_post" />
+        <activity android:name=".corner_myAds" />
+        <activity android:name=".corner_show_ads" />
+        <activity android:name=".corner_view_post" />
+        <activity android:name=".corner_viewad" />
+        <activity android:name=".profile_menu" />
+        <activity android:name=".shop_show_products" />
+        <activity android:name=".admin_ordersViewItems" />
+        <activity android:name=".shop_update_cartitem" />
+        <activity android:name=".shop_viewBill" />
+        <activity android:name=".shop_show_orders" />
+        <activity android:name=".shop_viewOrderitems" />
+        <activity android:name=".Cus_updateProfile" />
+        <activity android:name=".Cus_viewProfile" />
+        <activity android:name=".Home" />
+        <activity android:name=".Forget_password" />
+        <activity android:name=".shop_view_product" />
+        <activity android:name=".Registratiion" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

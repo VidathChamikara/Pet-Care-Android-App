@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532027110164",
+    "project_id": "mad-project-delta",
+    "storage_bucket": "mad-project-delta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532027110164:android:6b5eac1b15f1b31aa48801",
+        "android_client_info": {
+          "package_name": "com.example.madprojectdelta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532027110164-1edm3aut9bi99ntrihg8v60oehhosc9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU9_XTxMa1RDCCVtvYtVtRYZUFYDpQ5NM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532027110164-1edm3aut9bi99ntrihg8v60oehhosc9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

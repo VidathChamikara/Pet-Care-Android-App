@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#43014E"
+    android:layout_margin="5dp"
+    >
+
+
+    <TextView
+        android:id="@+id/Orders_receiverName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Receiver:"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/Orders_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Orders_receiverName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Phone No:"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Orders_postal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Orders_phone"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Postal Code"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Orders_price"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Orders_phone"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Total Amount:"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Orders_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Orders_price"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Address:"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Orders_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Orders_address"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Date Ordered:"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/Order_status"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Orders_date"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Status"
+        android:textColor="#FFEB3B"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/adminOdershowAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Order_status"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF05C8"
+        android:text="View Ordered Items"
+        android:layout_marginBottom="10dp"
+        android:textColor="#070E35"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8EF492"
+    android:layout_margin="10dp"
+    tools:context=".woofadmin_ordersViewItems">
+
+    <TextView
+        android:id="@+id/user_orders_productname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Product:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_orders_qty"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_orders_productname"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:text="Quantity:"
+        android:textColor="#001693"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_orders_price"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_orders_productname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Price:"
+        android:textColor="#8C0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

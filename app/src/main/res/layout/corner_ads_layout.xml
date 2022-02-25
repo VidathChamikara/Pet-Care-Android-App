@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/displayads_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".corner_show_ads"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/adImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/ad_dogType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Type"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@id/adImage"
+            />
+
+        <TextView
+            android:id="@+id/ad_dogDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/corner_showAd_details"
+            android:textSize="16sp"
+            android:layout_below="@+id/ad_dogType"
+            />
+
+        <TextView
+            android:id="@+id/ad_dogPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/corner_showAd_price"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/ad_dogDescription"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
